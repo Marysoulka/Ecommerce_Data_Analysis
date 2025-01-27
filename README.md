@@ -1,4 +1,5 @@
-# Ecommerce_Data_Analysis
+# Ecommerce Data Analysis
+
 ## Project Overview
 This project analyzes an extensive e-commerce dataset to uncover meaningful insights and trends. The analysis focuses on understanding customer behavior, sales trends, and relationships between key metrics such as discounts, quantity ordered, and revenue.
 
@@ -11,10 +12,11 @@ The dataset used for this project was sourced from [Kaggle](https://www.kaggle.c
 - `category_name`: Product category.
 - `grand_total`: Total revenue for an order.
 - `quantity_ordered`: Number of items ordered.
-- `discount_amount`: Discount applied on an order.
+- `discount_amount`: Discount applied to an order.
 - `market_value`: Market value of the order.
 
 ## Steps in the Analysis
+
 ### 1. **Data Cleaning and Preparation**
 - Removed unnecessary columns (`Unnamed` columns, `M-Y`).
 - Handled missing values using the mode (most frequent value).
@@ -43,6 +45,7 @@ The following charts were created to enhance the analysis:
 2. **Line Plot**: Trends for quantity ordered in top 5 categories over time.
 3. **Scatter Plot**: Relationship between discount amount and quantity ordered.
 4. **Bar Chart**: Top 10 customers by total orders.
+5. **Bar Chart**: Distribution of total orders across all customers.
 
 ## Results
 Key insights derived from the analysis:
@@ -51,7 +54,15 @@ Key insights derived from the analysis:
 - Discounts positively correlate with higher sales volume for certain categories.
 - Top customers contribute significantly to order volume, highlighting customer segmentation opportunities.
 
-## How to Run the Code
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/Ecommerce_Data_Analysis.git
+## Tools Used
+- **Python**: For data cleaning, analysis, and visualizations.
+- **Pandas**: Data manipulation and cleaning.
+- **Matplotlib & Seaborn**: Data visualization.
+- **Jupyter Notebook**: Interactive code development.
+
+
+
+
+
+
+
